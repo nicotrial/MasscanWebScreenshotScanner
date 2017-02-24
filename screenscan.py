@@ -28,8 +28,8 @@ def main():
 	parser.add_argument("-i", help="IP to Scan")
 	    	
 	args = parser.parse_args()
-	if args.f:
-		function1(args.f)	
+	if args.i:
+		function1(args.i)	
 	
 if __name__ == "__main__":
 	main()
