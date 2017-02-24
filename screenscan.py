@@ -24,7 +24,7 @@ def function1(keyfile):
 
 def main():
 
-	parser = argparse.ArgumentParser("ssh public key scanner")
+	parser = argparse.ArgumentParser("Website Scanner")
 	parser.add_argument("-i", help="IP to Scan")
 	    	
 	args = parser.parse_args()
